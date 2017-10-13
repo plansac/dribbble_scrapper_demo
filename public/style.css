@@ -1,140 +1,78 @@
 body{
-  background: white;
-  color: rgb(15,15,15);
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  /*background: #00171f;*/
+  background-image: url("images/galaxie.jpg");
+  background-attachment: fixed;
+  color: #272637;
+  font-size: 12px;
+  font-family: Helvetica;
 }
 h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: Merriweather;
   color: white;
   font-weight: lighter;
-  font-size: 60px;
+  font-size: 50px;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 }
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: Courier;
+  color: #626f92;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+ font-variant: small-caps;
 }
 a {
-  color: black;
-  text-decoration: none;
+  color: blue;
 }
 a:hover {
   text-decoration: none;
-  color: #8F2425;
+  color: purple;
+} 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
+.icone{
+  padding: 10px;
+  text-align: center;
+  background-color: #e2e3ff;
+  border-radius: 12px;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+  min-height: 220px;
+  margin: 20px;
+  border-spacing: 20px 20px;
 }
-#footer a:hover {
-  color: white;
-}
-
 #banner{
+  padding: 15px;
+  padding-left: 50px;
+  border: 5px solid black;
+  background-image: url("images/canape.jpg");
+  border-radius: 12px;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+  margin: 50px;
   text-align: center;
-  background-image: linear-gradient(-225deg, transparent 0%, rgba(0,0,0,0.5) 60%), url("images/bootcamp.gif");
-  background-size: cover;
-  padding-top: 150px;
-  height: 100vh;
   color: white;
-
-}
-
-#gif{
-  text-align: center;
-  background-image: url("images/hello.gif");
-  background-size: cover;
-  padding: 30vw 0;
-  color: white;
-  overflow-y: hidden;
-}
-
-#banner h1 {
-  color: white;
-  font-size: 50px;
-  font-weight: bolder;
-  text-shadow: 1px 1px 5px black;
-  padding-top: 30px;
-}
-#banner p {
-  color: rgb(230,23);
-  opacity: 0.8;
-  font-size: 25px;
-  font-weight: lighter;
-  text-shadow: 1px 1px 5px black;
-  padding-bottom: 40px
 }
 #footer{
-  padding: 30px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-}
-.card{
-  padding: 70px 30px;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.icon-size {
-  font-size: 50px;
-}
-
-.form-margin {
-  margin-top: 20px;
-}
-
-.btn-red {
+  background-color: rgba(0,0,0,0.5);
   color: white;
-  background-color: #D23333;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
-
-#wufoo-sx0l84z1iszo7g {
-  padding: 50px 30px;
-}
-
-.cta {
-  background-color: rgb(220,220,220);
-  padding: 50px;
-}
-
 #footer a {
-  font-size: 30px;
+  color: lightgrey;
+  font-size: 16px;
 }
-
 #footer a:hover {
-  color: #D23333;
+  color: white;
 }
-
-/*Search List style*/
-
-.card-list {
-  display: flex;
-  background-color: rgb(240, 240, 240);
-  overflow-wrap: normal;
-  padding: 30px 90px;
-}
-
-.card-list:hover {
-  background-color: rgb(230, 230, 230);
-}
-
-
-
-.card-list-text {
-flex: 1 1 70%;
-text-align: left;
-padding:0 20px;
-}
-
-.card-list-text p {
-font-weight: lighter
-}
-
-.card-list-text h6 {
-font-style: italic;
-margin-top: 30px;
-}
-
-.card-list-img {
-  flex: 0 1 auto;
+#contact {
+  background-color: #e2e3ff;
+  border-radius: 12px;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
 }
